@@ -1,0 +1,109 @@
+.Nav
+{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(38, 45, 51);
+    box-shadow:  0px 4px 10px rgba(0, 0, 0, 0.535) ;
+}
+
+.top-nav
+{
+    width: 100%;
+    height: 75%;
+    background-color: rgb(25,30,34);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-nav .logo
+{
+    color: aliceblue;
+    font-size: 28px;
+    padding: 13px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+}
+.top-nav .search-box
+{
+    width: 60%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+    overflow: hidden;
+
+}
+ .top-nav .search-box input
+{
+    width: 70%;
+    height: 100%;
+    padding: 10px 20px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+.top-nav .search-box button
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    width: 30%;
+    height:100%;
+    background-color: white;
+    font-size: 22px;
+    border: none;
+
+}
+
+
+.bottom-nav
+{
+width: 100%;
+height: 25%;
+background-color:rgb(38, 45, 51); 
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+gap:30px;
+list-style: none;
+}
+
+.bottom-nav li{
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-nav li:hover
+{
+    color: aqua;
+    transition: all 0.3s ease-in;
+}
+
+.cart{
+    position: relative;
+    padding-right: 25px;
+}
+
+.cart svg
+{
+    color: white;
+    width: 40px;
+    height: 35px;
+
+}
+
+.cart span
+{   
+
+    color:white;
+    position: absolute;
+    top: -10px;
+
+}

@@ -1,0 +1,17 @@
+.shop
+{
+    width: 100%;
+    min-height: 100vh;
+
+}
+.shop .heading
+{ 
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+    font-weight: bold;
+    
+}
